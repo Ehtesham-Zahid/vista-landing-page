@@ -1,0 +1,23 @@
+/* HEADER SECTION */
+.header-bg {
+  background-image: url("/header-bg.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+/* SERVICES SECTION */
+.services-bg {
+  background-image: url("/services-bg.png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+/* PRIDING SECTION */
+.pricing-bg {
+  background-image: url("/pricing-bg.png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
