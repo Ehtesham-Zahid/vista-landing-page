@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -8,79 +9,79 @@ export const Navbar = () => {
   return (
     <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-24 bg-transparent absolute top-0 left-0 w-screen">
       <div className="relative flex items-center justify-between">
-        <a
+        <Link
           href="/"
           aria-label="Company"
           title="Company"
           className="inline-flex items-center   "
         >
           <img src="/logo.png" className="w-32" />
-        </a>
+        </Link>
         <ul className="flex items-center hidden space-x-8 lg:flex text-[#072661] ms-40">
           <li>
-            <a
+            <Link
               href="/"
               aria-label="Our product"
               title="Our product"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Why IylaVista
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/"
               aria-label="Our product"
               title="Our product"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Features
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/"
               aria-label="About us"
               title="About us"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               How it works
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/"
               aria-label="Product pricing"
               title="Product pricing"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Pricing
-            </a>
+            </Link>
           </li>
         </ul>
         <div className=" flex ">
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
+              <Link
                 href="/"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-[#072661] transition duration-200  "
                 aria-label="Sign up"
                 title="Sign up"
               >
                 Login
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
+              <Link
                 href="/"
                 className="bg-[#23B5E8] inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
                 Get Started for Free
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -112,7 +113,7 @@ export const Navbar = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a
+                    <Link
                       href="/"
                       aria-label="Company"
                       title="Company"
@@ -136,7 +137,7 @@ export const Navbar = () => {
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                         Company
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -157,16 +158,16 @@ export const Navbar = () => {
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <a
+                      <Link
                         href="/"
                         aria-label="Our product"
                         title="Our product"
                         className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Product
-                      </a>
+                      </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="/"
                         aria-label="Our product"
@@ -205,7 +206,7 @@ export const Navbar = () => {
                       >
                         Sign up
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </div>
