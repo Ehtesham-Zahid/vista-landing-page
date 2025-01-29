@@ -37,7 +37,7 @@ export const Services = () => {
             </h6>
             <p className="mb-3 text-base font-normal opacity-70">
               Unlock opportunities with a real-time grant database tailored to
-              your startup's eligibility.
+              your startup&apos;s eligibility.
             </p>
           </div>
         </div>{" "}
