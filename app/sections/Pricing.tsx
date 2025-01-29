@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./style.css";
 
 export const Pricing = () => {
@@ -61,12 +62,12 @@ export const Pricing = () => {
             </div>
           </div>
           <div className="mt-4 w-full">
-            <a
+            <Link
               href="/"
               className="bg-white border inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-[#072661] transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Purchase Now
-            </a>
+            </Link>
           </div>
         </div>
         <div className="text-white relative flex flex-col justify-between p-10 transition-shadow duration-300 bg-[#23B5E8] border rounded-lg shadow-sm sm:items-start hover:shadow border-deep-purple-accent-400">
@@ -103,12 +104,12 @@ export const Pricing = () => {
             </div>
           </div>
           <div className="mt-4 w-full">
-            <a
+            <Link
               href="/"
               className="bg-white inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-[#072661] transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Purchase Now
-            </a>
+            </Link>
           </div>
         </div>
         <div className="text-[#072661] relative flex flex-col justify-between p-10 transition-shadow duration-300 bg-white border rounded-lg shadow-sm sm:items-start hover:shadow border-deep-purple-accent-400">
@@ -160,12 +161,12 @@ export const Pricing = () => {
             </div>
           </div>
           <div className="mt-4 w-full">
-            <a
+            <Link
               href="/"
               className="bg-white border inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-[#072661] transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
               Purchase Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>
