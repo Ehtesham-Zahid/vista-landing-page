@@ -1,6 +1,5 @@
 import FooterBanner from "../FooterBanner/FooterBanner";
 import FooterNav from "../FooterNav/FooterNav";
-import { Navbar } from "../Navbar/Navbar";
 import "./Footer.css";
 
 export const Footer = () => {
