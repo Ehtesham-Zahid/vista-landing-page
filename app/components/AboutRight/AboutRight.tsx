@@ -18,8 +18,8 @@ export const AboutRight = () => {
               Find the Right Investors
             </h2>
             <p className="text-lg text-[#072661] md:text-xl font-normal opacity-80 tracking-[-0.010em] ">
-              Quickly identify investors who align with your startup's mission,
-              stage, and industry.
+              Quickly identify investors who align with your startup&apos;s
+              mission, stage, and industry.
             </p>
           </div>
           <div className="max-w-xl mb-8">
