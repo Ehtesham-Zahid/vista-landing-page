@@ -2,13 +2,13 @@ import "./style.css";
 
 export const Services = () => {
   return (
-    <div className="text-white  services-bg px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28 rounded-2xl ">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-20">
-        <h2 className="syne-font max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight   sm:text-4xl md:mx-auto">
+    <div className="text-white  services-bg px-4 py-16 mx-auto  w-11/12 sm:w-5/6   md:px-8 lg:px-8 lg:py-20 rounded-2xl ">
+      <div className="max-w-xl   md:mx-auto text-center lg:max-w-2xl mb-10 sm:mb-20">
+        <h2 className="syne-font max-w-lg md:max-w-xl mb-6 font-sans text-3xl font-bold leading-none     sm:text-4xl md:mx-auto">
           Amazing services to make your business easier
         </h2>
       </div>
-      <div className="grid max-w-[800px] gap-20  mx-auto lg:grid-cols-2">
+      <div className="grid max-w-[800px] gap-14 lg:gap-20  mx-auto md:grid-cols-2">
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
@@ -16,7 +16,7 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-5">
+            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Investor Matching.
             </h6>
             <p className="mb-3 text-base font-normal opacity-70">
@@ -32,7 +32,7 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-5">
+            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Grant Discovery
             </h6>
             <p className="mb-3 text-base font-normal opacity-70">
@@ -48,7 +48,7 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-5">
+            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Media Opportunities
             </h6>
             <p className="mb-3 text-base font-normal opacity-70">
@@ -64,7 +64,7 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-5">
+            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Streamlined Outreach
             </h6>
             <p className="mb-3 text-base font-normal opacity-70">

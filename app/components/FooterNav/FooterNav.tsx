@@ -3,12 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export const Navbar = () => {
+const FooterNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
-    <div className="px-4 py-5 mx-auto   md:max-w-full  md:px-10 lg:px-5 xl:px-20 bg-transparent absolute top-0 left-0 w-screen">
-      <div className="relative flex items-center justify-between text-sm xl:text-base">
+    <div className="px-4 pt-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-24 bg-transparent   w-11/12">
+      <div className="relative flex items-center justify-between  border-b-2 pb-8">
         <Link
           href="/"
           aria-label="Company"
@@ -17,7 +16,7 @@ export const Navbar = () => {
         >
           <img src="/logo.png" className="w-32" />
         </Link>
-        <ul className="flex items-center hidden space-x-8 lg:flex text-[#072661] ms-36  ">
+        <ul className="flex items-center hidden space-x-8 lg:flex text-[#072661] ">
           <li>
             <Link
               href="/"
@@ -60,30 +59,7 @@ export const Navbar = () => {
           </li>
         </ul>
         <div className=" flex ">
-          <ul className="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <Link
-                href="/"
-                className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-[#072661] transition duration-200  "
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Login
-              </Link>
-            </li>
-          </ul>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
-            <li>
-              <Link
-                href="/"
-                className="bg-[#23B5E8] inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
-              >
-                Get Started for Free
-              </Link>
-            </li>
-          </ul>
+          <img src="/linkedin.jpg" />
         </div>
 
         <div className="lg:hidden">
@@ -119,7 +95,24 @@ export const Navbar = () => {
                       title="Company"
                       className="inline-flex items-center"
                     >
-                      <img src="/logo.png" className="w-32" />
+                      <svg
+                        className="w-8 text-deep-purple-accent-400"
+                        viewBox="0 0 24 24"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeMiterlimit="10"
+                        stroke="currentColor"
+                        fill="none"
+                      >
+                        <rect x="3" y="1" width="7" height="12" />
+                        <rect x="3" y="17" width="7" height="6" />
+                        <rect x="14" y="1" width="7" height="6" />
+                        <rect x="14" y="11" width="7" height="12" />
+                      </svg>
+                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        Company
+                      </span>
                     </Link>
                   </div>
                   <div>
@@ -138,8 +131,8 @@ export const Navbar = () => {
                     </button>
                   </div>
                 </div>
-                <nav className="mt-8">
-                  <ul className="space-y-6 text- text-base">
+                <nav>
+                  <ul className="space-y-4">
                     <li>
                       <Link
                         href="/"
@@ -147,40 +140,9 @@ export const Navbar = () => {
                         title="Our product"
                         className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Why IylaVista
+                        Product
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Features
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/"
-                        aria-label="About us"
-                        title="About us"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        How it works
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Pricing
-                      </Link>
-                    </li>
-
                     {/* <li>
                       <a
                         href="/"
@@ -222,44 +184,6 @@ export const Navbar = () => {
                       </a>
                     </li> */}
                   </ul>
-                  <div className="  flex justify-between mt-8">
-                    {/* <ul className="flex items-center  space-x-8 lg:hidden">
-                      <li>
-                        <Link
-                          href="/"
-                          className="inline-flex items-center justify-center h-12  font-medium tracking-wide text-[#072661] transition duration-200  "
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Login
-                        </Link>
-                      </li>
-                    </ul> */}
-                    <ul className="flex items-center  space-x-8 lg:hidden">
-                      <li>
-                        <Link
-                          href="/"
-                          className=" text-[#23B5E8] border-[#23B5E8] border-2 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded-full   focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Login
-                        </Link>
-                      </li>
-                    </ul>
-                    <ul className="flex items-center  space-x-8 lg:hidden">
-                      <li>
-                        <Link
-                          href="/"
-                          className="bg-[#23B5E8] inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Get Started for Free
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
                 </nav>
               </div>
             </div>
@@ -269,3 +193,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default FooterNav;
