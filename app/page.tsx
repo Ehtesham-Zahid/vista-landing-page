@@ -13,15 +13,12 @@ const page = () => {
     <div className="inter-font">
       <Navbar />
       <Header />
-
       <Features />
-      <Services />
       <About />
+      <Services />
       <Pricing />
       <HowItWorks />
       <Footer />
-      {/*
-       */}
     </div>
   );
 };
