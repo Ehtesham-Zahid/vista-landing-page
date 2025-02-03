@@ -56,7 +56,7 @@ const FooterNav = () => {
           title="Company"
           className="inline-flex items-center   "
         >
-          <img src="/logo.jpg" className="w-32" alt="IylaVista Logo" />
+          <img src="/logo.png" className="w-32" alt="IylaVista Logo" />
         </Link>
         <ul className="flex items-center hidden space-x-8 lg:flex text-[#072661] mr-16 ">
           <li>
