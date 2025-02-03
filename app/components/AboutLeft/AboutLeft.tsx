@@ -12,7 +12,7 @@ export const AboutLeft = () => {
         </p>
       </div>
       <div className="grid gap-y-10 lg:gap-y-0 gap-x-20   lg:grid-cols-2">
-        <div>
+        <div className="hidden lg:flex">
           <img
             className=" w-full rounded shadow-lg  "
             src="/about-2.png"
@@ -65,6 +65,13 @@ export const AboutLeft = () => {
               Get Started
             </Link>
           </div>
+        </div>
+        <div className="flex lg:hidden">
+          <img
+            className=" w-full rounded shadow-lg  "
+            src="/about-2.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
