@@ -30,6 +30,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 15 Unique Monthly Views
@@ -37,6 +38,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 AI Messaging
@@ -44,6 +46,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 Integrated CRM
@@ -51,6 +54,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 Basic Statistics
@@ -58,6 +62,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 Event Discovery
@@ -129,6 +134,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 15 Unique Monthly Views
@@ -136,6 +142,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 AI Messaging
@@ -143,6 +150,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 Integrated CRM
@@ -150,6 +158,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 Basic Statistics
@@ -157,6 +166,7 @@ export const Pricing = () => {
               <div className="flex items-center font-semibold">
                 <img
                   src="/tick.jpg"
+                  alt="tick icon"
                   className="mr-3 bg-[#23B5E8]  rounded-full w-[18px] h-[18px] p-1"
                 />
                 Event Discovery

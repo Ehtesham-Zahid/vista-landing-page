@@ -15,7 +15,7 @@ export const Services = () => {
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
-              <img src="/service-1.jpg" />
+              <img alt="services" src="/service-1.jpg" />
             </div>
           </div>
           <div>
@@ -31,7 +31,7 @@ export const Services = () => {
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
-              <img src="/service-2.jpg" />
+              <img alt="services" src="/service-2.jpg" />
             </div>
           </div>
           <div>
@@ -47,7 +47,7 @@ export const Services = () => {
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
-              <img src="/service-3.jpg" />
+              <img alt="services" src="/service-3.jpg" />
             </div>
           </div>
           <div>
@@ -63,7 +63,7 @@ export const Services = () => {
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
-              <img src="/service-4.jpg" />
+              <img alt="services" src="/service-4.jpg" />
             </div>
           </div>
           <div>

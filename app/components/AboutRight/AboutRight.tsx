@@ -35,15 +35,15 @@ export const AboutRight = () => {
           <div className="grid space-y-3   sm:space-y-0 mb-8">
             <ul className="space-y-4 text-base text-[#072661]">
               <li className="flex items-center font-semibold ">
-                <img src="/tick-blue.jpg" className="mr-2" />A curated database
-                of active investors and grants
+                <img src="/tick-blue.jpg" className="mr-2" alt="tick icon" />A
+                curated database of active investors and grants
               </li>
               <li className="flex items-center font-semibold ">
-                <img src="/tick-blue.jpg" className="mr-2" />
+                <img src="/tick-blue.jpg" className="mr-2" alt="tick icon" />
                 Recommendations tailored to your unique needs
               </li>
               <li className="flex items-center font-semibold ">
-                <img src="/tick-blue.jpg" className="mr-2" />
+                <img src="/tick-blue.jpg" className="mr-2" alt="tick icon" />
                 Save countless hours with an organized, central resource
               </li>
             </ul>
@@ -63,12 +63,12 @@ export const AboutRight = () => {
           <img
             className=" w-full   absolute -z-10  top-16 "
             src="/about-bg-1.jpg"
-            alt=""
+            alt="About IylaVista"
           />
           <img
             className=" w-full rounded shadow-lg  "
             src="/about-1.jpg"
-            alt=""
+            alt="About IylaVista"
           />
         </div>
       </div>

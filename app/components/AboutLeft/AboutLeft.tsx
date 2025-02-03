@@ -16,12 +16,12 @@ export const AboutLeft = () => {
           <img
             className=" w-full   absolute -z-10  top-12 "
             src="/about-bg-2.jpg"
-            alt=""
+            alt="About IylaVista"
           />
           <img
             className=" w-full rounded shadow-lg  "
             src="/about-2.jpg"
-            alt=""
+            alt="About IylaVista"
           />
         </div>
         <div className="flex flex-col justify-center">
@@ -47,15 +47,15 @@ export const AboutLeft = () => {
           <div className="grid space-y-3   sm:space-y-0 mb-8">
             <ul className="space-y-4 text-base text-[#072661]">
               <li className="flex items-center font-semibold ">
-                <img src="/tick-blue.jpg" className="mr-2" />
+                <img src="/tick-blue.jpg" className="mr-2" alt="tick icon" />
                 100K+ verified media profiles
               </li>
               <li className="flex items-center font-semibold ">
-                <img src="/tick-blue.jpg" className="mr-2" />
+                <img src="/tick-blue.jpg" className="mr-2" alt="tick icon" />
                 Live opportunities matched to your expertise
               </li>
               <li className="flex items-center font-semibold ">
-                <img src="/tick-blue.jpg" className="mr-2" />
+                <img src="/tick-blue.jpg" className="mr-2" alt="tick icon" />
                 Effortless outreach with tailored recommendations
               </li>
             </ul>
@@ -75,12 +75,12 @@ export const AboutLeft = () => {
           <img
             className=" w-full   absolute -z-10  top-12 "
             src="/about-bg-2.jpg"
-            alt=""
+            alt="About IylaVista"
           />
           <img
             className=" w-full rounded shadow-lg  "
             src="/about-2.jpg"
-            alt=""
+            alt="About IylaVista"
           />
         </div>
       </div>
