@@ -101,7 +101,7 @@ const FooterNav = () => {
           </li>
         </ul>
         <div className=" flex ">
-          <img src="/linkedin.jpg" alt="LinkedIn" />
+          <img src="/linkedin.jpg" alt="LinkedIn" className="w-8" />
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ export const Header = () => {
           </div>
         </div>
         <img
-          src="https://s3-alpha-sig.figma.com/img/5ca2/fb21/89a317359cd6369222bbfc5a22d650dc?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gAjEf9ExQJkNNFfgqPhOUDXjE6rUqW3iGJ255kSryOc-lpivnxGVHxuW926-i6CWDD85PUDBrcFfSzjVRGuXNEeYQ5VqRkjM7aWWCvQsBLDbxlXmOwQtotnIYPQd57kdy6C-SlR~x4Xuh6jfzSsDQj1oPc7EPW6mpI6D7MuBKd8sOZWaT8mA-p0WMYkJrNSEWVYoh9Sda8M9yVySpA~GdUBMYJcBUoTq4GIQvScxAxA0luTrRySJEfNaF4an-BlWnsFcUqdN-zzA4KBXK8HuCt4K7qaqBR6tbL~WkiEeh84-u6G3Xeia2YDNPXQOi21AkJ~ZLPhsmln4pnDoJAgSFg__"
+          src="/header-main.jpg"
           className="w-full max-w-screen-sm mx-auto rounded shadow-2xl md:w-auto lg:max-w-screen-lg"
           alt=""
         />
