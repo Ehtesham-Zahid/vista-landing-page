@@ -14,8 +14,8 @@ export const Services = () => {
       <div className="grid max-w-[800px] gap-14 lg:gap-20  mx-auto md:grid-cols-2">
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
-            <div className="flex items-center justify-center  mb-4 rounded-full ">
-              <img alt="services" src="/service-1.jpg" className="w-24" />
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
+              <img alt="services" src="/service-1.jpg" className="w-full" />
             </div>
           </div>
           <div>
@@ -30,8 +30,8 @@ export const Services = () => {
         </div>
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
-            <div className="flex items-center justify-center  mb-4 rounded-full ">
-              <img alt="services" src="/service-2.jpg" className="w-24" />
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
+              <img alt="services" src="/service-2.jpg" className="w-full" />
             </div>
           </div>
           <div>
@@ -46,8 +46,8 @@ export const Services = () => {
         </div>{" "}
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
-            <div className="flex items-center justify-center  mb-4 rounded-full ">
-              <img alt="services" src="/service-3.jpg" className="w-24" />
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
+              <img alt="services" src="/service-3.jpg" className="w-full" />
             </div>
           </div>
           <div>
@@ -62,8 +62,8 @@ export const Services = () => {
         </div>
         <div className="flex flex-col max-w-md sm:mx-auto sm:flex-row">
           <div className="mr-6">
-            <div className="flex items-center justify-center  mb-4 rounded-full ">
-              <img alt="services" src="/service-4.jpg" className="w-24" />
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full ">
+              <img alt="services" src="/service-4.jpg" className="w-full" />
             </div>
           </div>
           <div>
