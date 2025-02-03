@@ -3,7 +3,10 @@ import "./style.css";
 
 export const HowItWorks = () => {
   return (
-    <div className="text-white  services-bg px-4 py-16 mx-auto  w-11/12 sm:w-5/6 lg:px-8 lg:py-20 rounded-2xl ">
+    <div
+      id="how"
+      className="text-white  services-bg px-4 py-16 mx-auto  w-11/12 sm:w-5/6 lg:px-8 lg:py-20 rounded-2xl "
+    >
       <div className="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-20">
         <h2 className="syne-font max-w-lg mb-6 font-sans text-3xl font-bold leading-none     sm:text-4xl md:mx-auto">
           Transform Connections Into Opportunities.

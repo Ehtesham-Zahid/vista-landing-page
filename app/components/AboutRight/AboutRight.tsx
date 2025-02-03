@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const AboutRight = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg xl:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg xl:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
       <div className="w-full mb-16">
         <h1 className="text-4xl text-center syne-font text-[#072661] font-bold mb-5">
           Capital Engine

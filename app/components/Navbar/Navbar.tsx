@@ -20,7 +20,7 @@ export const Navbar = () => {
         <ul className="flex items-center hidden space-x-8 lg:flex text-[#072661] ms-36  ">
           <li>
             <Link
-              href="/"
+              href="#services"
               aria-label="Our product"
               title="Our product"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -30,7 +30,7 @@ export const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/"
+              href="#features"
               aria-label="Our product"
               title="Our product"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -40,22 +40,22 @@ export const Navbar = () => {
           </li>
           <li>
             <Link
-              href="/"
-              aria-label="About us"
-              title="About us"
-              className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              How it works
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
+              href="#pricing"
               aria-label="Product pricing"
               title="Product pricing"
               className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Pricing
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#how"
+              aria-label="About us"
+              title="About us"
+              className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              How it works
             </Link>
           </li>
         </ul>
@@ -142,9 +142,10 @@ export const Navbar = () => {
                   <ul className="space-y-6 text- text-base">
                     <li>
                       <Link
-                        href="/"
+                        href="#services"
                         aria-label="Our product"
                         title="Our product"
+                        onClick={() => setIsMenuOpen(false)}
                         className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Why IylaVista
@@ -152,9 +153,10 @@ export const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="#features"
                         aria-label="Our product"
                         title="Our product"
+                        onClick={() => setIsMenuOpen(false)}
                         className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         Features
@@ -162,85 +164,35 @@ export const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        href="/"
+                        href="#pricing"
+                        aria-label="Product pricing"
+                        title="Product pricing"
+                        onClick={() => setIsMenuOpen(false)}
+                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Pricing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="#how"
                         aria-label="About us"
                         title="About us"
+                        onClick={() => setIsMenuOpen(false)}
                         className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         How it works
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Pricing
-                      </Link>
-                    </li>
-
-                    {/* <li>
-                      <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Features
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        aria-label="Product pricing"
-                        title="Product pricing"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Pricing
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        aria-label="About us"
-                        title="About us"
-                        className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        About us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/"
-                        className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        aria-label="Sign up"
-                        title="Sign up"
-                      >
-                        Sign up
-                      </a>
-                    </li> */}
                   </ul>
                   <div className="  flex justify-between mt-8">
-                    {/* <ul className="flex items-center  space-x-8 lg:hidden">
-                      <li>
-                        <Link
-                          href="/"
-                          className="inline-flex items-center justify-center h-12  font-medium tracking-wide text-[#072661] transition duration-200  "
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Login
-                        </Link>
-                      </li>
-                    </ul> */}
                     <ul className="flex items-center  space-x-8 lg:hidden">
                       <li>
                         <Link
                           href="/"
                           className=" text-[#23B5E8] border-[#23B5E8] border-2 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded-full   focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
+                          onClick={() => setIsMenuOpen(false)}
                           title="Sign up"
                         >
                           Login
@@ -253,6 +205,7 @@ export const Navbar = () => {
                           href="/"
                           className="bg-[#23B5E8] inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded-full shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
+                          onClick={() => setIsMenuOpen(false)}
                           title="Sign up"
                         >
                           Get Started for Free

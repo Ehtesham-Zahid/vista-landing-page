@@ -1,6 +1,9 @@
 export const Features = () => {
   return (
-    <div className="px-4 py-16 mx-auto  w-11/12 sm:w-5/6 md:w-11/12 2xl:max-w-screen-xl     lg:py-20">
+    <div
+      id="features"
+      className="px-4 py-16 mx-auto  w-11/12 sm:w-5/6 md:w-11/12 2xl:max-w-screen-xl     lg:py-20"
+    >
       <div className="max-w-xl mb-16 sm:mx-auto  ">
         <h2 className="syne-font text-3xl font-bold leading-tight tracking-tight text-[#072661] sm:text-4xl text-center mb-5">
           The IylaVista Way
