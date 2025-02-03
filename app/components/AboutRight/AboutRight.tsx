@@ -67,7 +67,7 @@ export const AboutRight = () => {
           />
           <img
             className=" w-full rounded shadow-lg  "
-            src="/about-1.jpg"
+            src="/about-1.png"
             alt=""
           />
         </div>
