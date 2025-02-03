@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 
 const FooterNav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="px-4 pt-5 mx-auto sm:max-w-xl md:max-w-full  md:px-24 lg:px-24 bg-transparent   w-11/12">
       {/* <ul className="flex  items-center lg:hidden space-x-8 justify-between  text-[#072661] mb-10 ">
