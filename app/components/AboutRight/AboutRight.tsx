@@ -61,13 +61,13 @@ export const AboutRight = () => {
         </div>
         <div className="relative">
           <img
-            className=" w-full   absolute -z-10 "
+            className=" w-full   absolute -z-10  top-16 "
             src="/about-bg-1.jpg"
             alt=""
           />
           <img
             className=" w-full rounded shadow-lg  "
-            src="/about-1.png"
+            src="/about-1.jpg"
             alt=""
           />
         </div>

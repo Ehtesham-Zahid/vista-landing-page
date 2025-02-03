@@ -8,7 +8,7 @@
 
 /* SERVICES SECTION */
 .services-bg {
-  background-image: url("/services-bg.png");
+  background-image: url("/services-bg.jpg");
   background-repeat: none;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
 
 /* PRIDING SECTION */
 .pricing-bg {
-  background-image: url("/pricing-bg.png");
+  background-image: url("/pricing-bg.jpg");
   background-repeat: none;
   background-position: center;
   background-size: cover;

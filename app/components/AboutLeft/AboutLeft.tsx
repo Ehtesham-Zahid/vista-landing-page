@@ -12,10 +12,15 @@ export const AboutLeft = () => {
         </p>
       </div>
       <div className="grid gap-y-10 lg:gap-y-0 gap-x-20   lg:grid-cols-2">
-        <div className="hidden lg:flex">
+        <div className="relative hidden lg:flex">
+          <img
+            className=" w-full   absolute -z-10  top-12 "
+            src="/about-bg-2.jpg"
+            alt=""
+          />
           <img
             className=" w-full rounded shadow-lg  "
-            src="/about-2.png"
+            src="/about-2.jpg"
             alt=""
           />
         </div>
@@ -66,10 +71,15 @@ export const AboutLeft = () => {
             </Link>
           </div>
         </div>
-        <div className="flex lg:hidden">
+        <div className="relative flex lg:hidden">
+          <img
+            className=" w-full   absolute -z-10  top-12 "
+            src="/about-bg-2.jpg"
+            alt=""
+          />
           <img
             className=" w-full rounded shadow-lg  "
-            src="/about-2.png"
+            src="/about-2.jpg"
             alt=""
           />
         </div>

@@ -17,7 +17,7 @@ export const Features = () => {
         <div className="flex">
           <div>
             <div className="  w-10 h-10 mb-6 rounded-full ">
-              <img src="/feature-1.png" className="" />
+              <img src="/feature-1.jpg" className="" />
             </div>
             <h6 className="mb-3 font-bold  text-xl  min-[500px]:text-2xl text-[#072661]">
               Centralized Resource Hub
