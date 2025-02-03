@@ -16,9 +16,9 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
+            <h5 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Investor Matching.
-            </h6>
+            </h5>
             <p className="mb-3 text-base font-normal opacity-70">
               Find the right investors aligned with your industry, stage, and
               growth goals in minute.
@@ -32,9 +32,9 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
+            <h5 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Grant Discovery
-            </h6>
+            </h5>
             <p className="mb-3 text-base font-normal opacity-70">
               Unlock opportunities with a real-time grant database tailored to
               your startup&apos;s eligibility.
@@ -48,9 +48,9 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
+            <h5 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Media Opportunities
-            </h6>
+            </h5>
             <p className="mb-3 text-base font-normal opacity-70">
               Stay ahead with real-time updates on journalists and outlets
               actively seeking stories in your industry.
@@ -64,9 +64,9 @@ export const Services = () => {
             </div>
           </div>
           <div>
-            <h6 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
+            <h5 className="mb-3 text-2xl font-semibold leading-7 lg:leading-5">
               Streamlined Outreach
-            </h6>
+            </h5>
             <p className="mb-3 text-base font-normal opacity-70">
               Simplify your workflow with an intuitive CRM that tracks,
               automates, and optimizes your follow-ups.
