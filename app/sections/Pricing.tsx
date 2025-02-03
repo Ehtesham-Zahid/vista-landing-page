@@ -90,23 +90,23 @@ export const Pricing = () => {
             </p>
             <div className="mt-2 space-y-4">
               <div className="flex items-center font-semibold">
-                <img src="/tick.jpg" className="mr-3" />
+                <img src="/tick.jpg" className="mr-3" alt="tick icon" />
                 15 Unique Monthly Views
               </div>
               <div className="flex items-center font-semibold">
-                <img src="/tick.jpg" className="mr-3" />
+                <img src="/tick.jpg" className="mr-3" alt="tick icon" />
                 AI Messaging
               </div>{" "}
               <div className="flex items-center font-semibold">
-                <img src="/tick.jpg" className="mr-3" />
+                <img src="/tick.jpg" className="mr-3" alt="tick icon" />
                 Integrated CRM
               </div>{" "}
               <div className="flex items-center font-semibold">
-                <img src="/tick.jpg" className="mr-3" />
+                <img src="/tick.jpg" className="mr-3" alt="tick icon" />
                 Basic Statistics
               </div>{" "}
               <div className="flex items-center font-semibold">
-                <img src="/tick.jpg" className="mr-3" />
+                <img src="/tick.jpg" className="mr-3" alt="tick icon" />
                 Event Discovery
               </div>
             </div>

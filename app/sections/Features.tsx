@@ -45,10 +45,7 @@ export const Features = () => {
         <div className="flex">
           <div>
             <div className="  w-10 h-10 mb-6 rounded-full ">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/b22e/49b0/93d0cccf6d2ea2312aa4958ea9e54965?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mqXLt~rNHNlZtu5nVFE9~WwQx4VeXuS-XUIvLpRdvMF6sOltp8fwkYYyQGRhWEKiY7Yy2hfTDhzPwHmyvfimvWrAyxiUyrsG2sQEh1Bzp9SR0AOHaEzDcNIhmgQtQgU5QtfdO1UvLuh6geJEYipsoW7XmtVyIO3lIeWSAw0DePQztmfEwhX~0d4JbongXCcWQhyI6UCMVDzX5o4b4LqD~Azm~ZIi9-V29Eqk~wHa0KI3of0Oi7Ue7s1iVt3DwAqnMj5BA6AUzK75T767mdR-VmCNJejIfA0G8COH98xhNCtMdyRAk9~60J5f-DkCOpIj9ge7kcxwyIAEIH7xf8q06A__"
-                className=""
-              />
+              <img src="/feature-3.jpg" className="" alt="feature 3" />
             </div>
             <h6 className="mb-3 font-bold   text-xl  min-[500px]:text-2xl text-[#072661]">
               AI-Powered Matching

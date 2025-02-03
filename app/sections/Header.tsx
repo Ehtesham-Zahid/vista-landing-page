@@ -40,7 +40,7 @@ export const Header = () => {
         <img
           src="/header-main.jpg"
           className="w-full max-w-screen-sm mx-auto rounded shadow-2xl md:w-auto lg:max-w-screen-lg"
-          alt=""
+          alt="dashboard"
         />
       </div>
     </>
