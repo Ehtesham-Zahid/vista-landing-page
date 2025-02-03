@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const AboutRight = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg xl:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="w-full mb-16">
         <h1 className="text-4xl text-center syne-font text-[#072661] font-bold mb-5">
           Capital Engine
@@ -11,7 +11,7 @@ export const AboutRight = () => {
           AI-Powered Investor Matching & Grant Discovery
         </p>
       </div>
-      <div className="grid gap-x-20   lg:grid-cols-2">
+      <div className="grid gap-y-10 lg:gap-y-0 gap-x-20   lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-3 text-xl font-bold    sm:text-2xl text-[#072661]">

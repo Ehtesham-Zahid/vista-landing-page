@@ -5,10 +5,10 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <div className="footer-bg">
-      <div className="px-4 py- mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20  pb-10">
+      <div className="px-4 py- mx-auto   md:px-24 lg:px-8  pt-20  pb-10">
         <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
-          <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
-            <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 flex justify-center flex-col items-center">
+          <div className="flex flex-col  sm:text-center  ">
+            <div className="max-w-xl   md:mx-auto sm:text-center lg:max-w-2xl md:mb-12 flex justify-center flex-col items-center">
               <h1 className="text-center syne-font  mb-6  text-3xl font-bold tracking-tight  text-[#072661] sm:text-4xl md:mx-auto">
                 Ready to Power Your Growth?
               </h1>

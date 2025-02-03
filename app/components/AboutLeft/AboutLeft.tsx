@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const AboutLeft = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg xl:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="w-full mb-16">
         <h1 className="text-4xl text-center syne-font text-[#072661] font-bold mb-5">
           Coverage Engine
@@ -11,7 +11,7 @@ export const AboutLeft = () => {
           AI-Driven Media Connections & Real-Time Press Opportunities
         </p>
       </div>
-      <div className="grid gap-x-20   lg:grid-cols-2">
+      <div className="grid gap-y-10 lg:gap-y-0 gap-x-20   lg:grid-cols-2">
         <div>
           <img
             className=" w-full rounded shadow-lg  "

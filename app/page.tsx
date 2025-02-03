@@ -4,8 +4,8 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Features } from "./sections/Features";
 import { Services } from "./sections/Services";
 import { Pricing } from "./sections/Pricing";
-// import { About } from "./sections/About";
-// import { Footer } from "./components/Footer/Footer";
+import { About } from "./sections/About";
+import { Footer } from "./components/Footer/Footer";
 import { HowItWorks } from "./sections/HowItWorks";
 
 const page = () => {
@@ -16,11 +16,12 @@ const page = () => {
 
       <Features />
       <Services />
+      <About />
       <Pricing />
       <HowItWorks />
-      {/*   
-      <About />
-      <Footer /> */}
+      <Footer />
+      {/*
+       */}
     </div>
   );
 };
